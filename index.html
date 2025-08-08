@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Rakshabandhan 🎉</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="title">Happy Rakshabandhan 🎀</h1>
+  <p class="subtitle">for my cool brothers. pls click hehe 💌</p>
+
+  <div class="buttons">
+    <button onclick="openLetter('Abhi Bhaiya')">For: Abhi Bhaiya</button>
+    <button onclick="openLetter('Pawan Bhaiya')">For: Pawan Bhaiya</button>
+    <button onclick="openLetter('Saksham Bhaiya')">For: Saksham Bhaiya</button>
+    <button onclick="openLetter('Dada')">For: Dada</button>
+    <button onclick="openLetter('Ripu Bhaiya')">For: Ripu Bhaiya</button>
+  </div>
+</div>
+
+<!-- Letter Modal -->
+<div class="modal" id="letterModal">
+  <div class="modal-content">
+    <span class="close" onclick="closeLetter()">&times;</span>
+    <h2 id="letterTitle"></h2>
+    <p id="letterText"></p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
